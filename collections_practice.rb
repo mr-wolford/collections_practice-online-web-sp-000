@@ -25,6 +25,6 @@ end
 
 def kesha_maker(array)
   array.collect do |string|
-    string.tr(string[2], "$")
+    string.tr([2], "$")
   end
 end
