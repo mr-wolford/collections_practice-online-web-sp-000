@@ -41,4 +41,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect { |x, i| x << "s"}
+  array[1] = "feet"
+  array
 end
