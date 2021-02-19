@@ -28,4 +28,3 @@ def kesha_maker(array)
     string.tr(string[2], "$")
   end
 end
-
